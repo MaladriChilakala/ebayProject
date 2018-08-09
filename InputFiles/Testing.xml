@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel test suite" parallel="classes" thread-count="2">
+    <test name="FirefoxTest">
+        <parameter name="myBrowser" value="firefox"/>
+        <classes>
+            <class name="ebayProject.TGSearchProduct" />
+        </classes>
+    </test>
+    <test name="ChromeTest">
+        <parameter name="myBrowser" value="chrome"/>
+        <classes>
+            <class name="ebayProject.TGSearchProduct" />
+        </classes>
+    </test>
+ 
+</suite>
